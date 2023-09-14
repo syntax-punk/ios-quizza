@@ -39,18 +39,18 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="False">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
-                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="onAnswerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sZs-oy-vgL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opm-Px-bXm">
-                                <rect key="frame" x="16" y="525" width="164" height="45"/>
+                                <rect key="frame" x="16" y="524.5" width="164" height="45"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="True">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="onAnswerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nke-TK-5BI"/>
@@ -80,7 +80,7 @@
                     </view>
                     <connections>
                         <outlet property="falseButton" destination="XI2-48-7Ox" id="qCQ-eG-5Ec"/>
-                        <outlet property="progressBar" destination="X2o-Pz-dXW" id="1zd-ld-d8A"/>
+                        <outlet property="progressBar" destination="cbG-Ak-92x" id="lW4-Wn-553"/>
                         <outlet property="questionContainer" destination="Blc-wL-Wij" id="dQn-YL-S83"/>
                         <outlet property="trueButton" destination="Opm-Px-bXm" id="awp-uB-Afz"/>
                     </connections>
@@ -94,9 +94,6 @@
         <image name="blurry" width="640" height="960"/>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
