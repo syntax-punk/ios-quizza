@@ -56,6 +56,13 @@
                                     <action selector="onAnswerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nke-TK-5BI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRJ-Kg-FTH">
+                                <rect key="frame" x="16" y="59" width="113" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.067793346939999999" green="0.1560931206" blue="0.3294289708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -82,6 +89,7 @@
                         <outlet property="falseButton" destination="XI2-48-7Ox" id="qCQ-eG-5Ec"/>
                         <outlet property="progressBar" destination="cbG-Ak-92x" id="lW4-Wn-553"/>
                         <outlet property="questionContainer" destination="Blc-wL-Wij" id="dQn-YL-S83"/>
+                        <outlet property="scoreLabel" destination="bRJ-Kg-FTH" id="yF2-KL-inD"/>
                         <outlet property="trueButton" destination="Opm-Px-bXm" id="awp-uB-Afz"/>
                     </connections>
                 </viewController>
